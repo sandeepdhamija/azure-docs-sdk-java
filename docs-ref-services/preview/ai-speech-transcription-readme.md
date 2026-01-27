@@ -1,12 +1,12 @@
 ---
 title: Azure AI Speech Transcription client library for Java
 keywords: Azure, java, SDK, API, azure-ai-speech-transcription, transcription
-ms.date: 01/06/2026
+ms.date: 01/27/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: transcription
 ---
-# Azure AI Speech Transcription client library for Java - version 1.0.0-beta.1 
+# Azure AI Speech Transcription client library for Java - version 1.0.0-alpha.20260127.1 
 
 
 The Azure AI Speech Transcription client library provides a simple and efficient way to convert audio to text using Azure Cognitive Services. This library enables you to transcribe audio with features like speaker diarization, profanity filtering, and phrase hints for improved accuracy.
@@ -291,14 +291,14 @@ If you encounter issues:
 
 ## Next steps
 
-- Explore the [samples](https://github.com/Azure/azure-sdk-for-java/tree/azure-ai-speech-transcription_1.0.0-beta.1/sdk/transcription/azure-ai-speech-transcription/src/samples) for more examples
+- Explore the [samples](https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/transcription/azure-ai-speech-transcription/src/samples) for more examples
 - Learn more about [Azure Speech Service](https://learn.microsoft.com/azure/ai-services/speech-service/)
 - Review the [API reference documentation][docs] for detailed information about classes and methods
 
 ## Contributing
 
 
-For details on contributing to this repository, see the [contributing guide](https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-speech-transcription_1.0.0-beta.1/CONTRIBUTING.md).
+For details on contributing to this repository, see the [contributing guide](https://github.com/Azure/azure-sdk-for-java/blob/main/CONTRIBUTING.md).
 
 1. Fork it
 1. Create your feature branch (`git checkout -b my-new-feature`)
