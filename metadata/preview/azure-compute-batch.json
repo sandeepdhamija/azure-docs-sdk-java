@@ -1,7 +1,7 @@
 {
   "Name": "azure-compute-batch",
-  "Version": "1.0.0-beta.5",
-  "DevVersion": null,
+  "Version": "1.0.0-alpha.20260127.1",
+  "DevVersion": "1.0.0-alpha.20260127.1",
   "DirectoryPath": "sdk/batch/azure-compute-batch",
   "ServiceDirectory": "batch",
   "ReadMePath": "sdk/batch/azure-compute-batch/README.md",
@@ -14,17 +14,18 @@
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "releaseInBatch": "${{ parameters.release_azurecomputebatch }}",
-    "name": "azure-compute-batch",
     "triggeringPaths": [
       "/sdk/batch/ci.yml"
     ],
+    "safeName": "azurecomputebatch",
     "groupId": "com.azure",
-    "safeName": "azurecomputebatch"
+    "releaseInBatch": "${{ parameters.release_azurecomputebatch }}",
+    "name": "azure-compute-batch"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
   },
+  "SpecProjectPath": "specification/batch/Azure.Batch",
   "Namespaces": [
     "com.azure.compute.batch",
     "com.azure.compute.batch.models"

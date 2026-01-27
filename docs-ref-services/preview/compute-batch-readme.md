@@ -1,12 +1,12 @@
 ---
 title: Azure Batch client library for Java
 keywords: Azure, java, SDK, API, azure-compute-batch, batch
-ms.date: 09/16/2025
+ms.date: 01/27/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: batch
 ---
-# Azure Batch client library for Java - version 1.0.0-beta.5 
+# Azure Batch client library for Java - version 1.0.0-alpha.20260127.1 
 
 
 This README is based on the latest released version of the Azure Compute Batch SDK, which allows users to run large-scale parallel and high-performance computing (HPC) batch jobs efficiently in Azure. To view the latest version of the package, [visit this link](https://central.sonatype.com/artifact/com.azure/azure-compute-batch/overview)
@@ -236,7 +236,7 @@ batchClient.createPool(new BatchPoolCreateParameters("poolId", "STANDARD_DC2s_V2
 ```
 
 For more information on code snippets and samples relating to using the management plane SDK, please visit these links:
-[Management Plane Code Snippets and Samples](https://github.com/Azure/azure-sdk-for-java/blob/azure-compute-batch_1.0.0-beta.5/sdk/batch/azure-resourcemanager-batch/SAMPLE.md)
+[Management Plane Code Snippets and Samples](https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/batch/azure-resourcemanager-batch/SAMPLE.md)
 [API documentation for com.azure.resourcemanager.batch](https://learn.microsoft.com/java/api/com.azure.resourcemanager.batch?view=azure-java-stable)
 [azure-resourcemanager-batch SDK](https://central.sonatype.com/artifact/com.azure.resourcemanager/azure-resourcemanager-batch/overview)
 
