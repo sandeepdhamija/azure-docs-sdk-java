@@ -472,6 +472,11 @@
     href: ~/docs-ref-services/{moniker}/cognitive-services.md
     landingPageType: Service
     items:
+    - name: AI Agents
+      href: ~/docs-ref-services/{moniker}/ai-agents-readme.md
+      children:
+      - com.azure.ai.agents
+      - com.azure.ai.agents.models
     - name: AI Agents Persistent
       href: ~/docs-ref-services/{moniker}/ai-agents-persistent-readme.md
       children:
@@ -1645,7 +1650,6 @@
       href: ~/docs-ref-services/{moniker}/messaging-eventgrid-readme.md
       children:
       - com.azure.messaging.eventgrid
-      - com.azure.messaging.eventgrid.models
       - com.azure.messaging.eventgrid.systemevents
     - name: CloudNative CloudEvents with Event Grid  (deprecated)
       href: ~/docs-ref-services/{moniker}/messaging-eventgrid-cloudnative-cloudevents-readme.md
@@ -1659,7 +1663,6 @@
     - name: System Events
       href: ~/docs-ref-services/{moniker}/messaging-eventgrid-systemevents-readme.md
       children:
-      - com.azure.messaging.eventgrid
       - com.azure.messaging.eventgrid.systemevents
       - com.azure.messaging.eventgrid.systemevents.models
     - name: Management
@@ -4204,11 +4207,6 @@
     href: ~/docs-ref-services/{moniker}/unknown.md
     landingPageType: Service
     items:
-    - name: unknown
-      href: ~/docs-ref-services/{moniker}/ai-agents-readme.md
-      children:
-      - com.azure.ai.agents
-      - com.azure.ai.agents.models
     - name: unknown
       href: ~/docs-ref-services/{moniker}/ai-voicelive-readme.md
       children:
