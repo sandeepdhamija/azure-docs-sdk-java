@@ -1,12 +1,12 @@
 ---
 title: Azure Projects client library for Java
 keywords: Azure, java, SDK, API, azure-ai-projects, ai
-ms.date: 11/12/2025
+ms.date: 02/04/2026
 ms.topic: reference
 ms.devlang: java
 ms.service: ai
 ---
-# Azure Projects client library for Java - version 1.0.0-beta.3 
+# Azure Projects client library for Java - version 1.0.0-alpha.20260204.1 
 
 
 The AI Projects client library is part of the Azure AI Foundry SDK and provides easy access to resources in your Azure AI Foundry Project. Use it to:
@@ -142,7 +142,7 @@ Always ensure that the chosen API version is fully supported and operational for
 
 ## Contributing
 
-For details on contributing to this repository, see the [contributing guide](https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-projects_1.0.0-beta.3/CONTRIBUTING.md).
+For details on contributing to this repository, see the [contributing guide](https://github.com/Azure/azure-sdk-for-java/blob/main/CONTRIBUTING.md).
 
 1. Fork it
 1. Create your feature branch (`git checkout -b my-new-feature`)
@@ -155,8 +155,8 @@ For details on contributing to this repository, see the [contributing guide](htt
 [docs]: https://learn.microsoft.com/rest/api/aifoundry/aiprojects/
 [jdk]: https://learn.microsoft.com/azure/developer/java/fundamentals/
 [azure_subscription]: https://azure.microsoft.com/free/
-[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/azure-ai-projects_1.0.0-beta.3/sdk/identity/azure-identity
-[package_samples]: https://github.com/Azure/azure-sdk-for-java/tree/azure-ai-projects_1.0.0-beta.3/sdk/ai/azure-ai-projects/src/samples/java/com/azure/ai/projects
+[azure_identity]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/identity/azure-identity
+[package_samples]: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/ai/azure-ai-projects/src/samples/java/com/azure/ai/projects
 [openai_java_sdk]: https://github.com/openai/openai-java
 [openai_api_docs]: https://platform.openai.com/docs/overview
 
