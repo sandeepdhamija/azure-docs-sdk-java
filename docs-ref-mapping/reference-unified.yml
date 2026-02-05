@@ -111,6 +111,10 @@
         - com.azure.resourcemanager.appconfiguration.fluent
         - com.azure.resourcemanager.appconfiguration.fluent.models
         - com.azure.resourcemanager.appconfiguration.models
+        - com.azure.resourcemanager.appconfiguration
+        - com.azure.resourcemanager.appconfiguration.fluent
+        - com.azure.resourcemanager.appconfiguration.fluent.models
+        - com.azure.resourcemanager.appconfiguration.models
   - name: App Platform
     href: ~/docs-ref-services/{moniker}/app-platform.md
     landingPageType: Service
@@ -1647,7 +1651,6 @@
       href: ~/docs-ref-services/{moniker}/messaging-eventgrid-readme.md
       children:
       - com.azure.messaging.eventgrid
-      - com.azure.messaging.eventgrid.models
       - com.azure.messaging.eventgrid.systemevents
     - name: CloudNative CloudEvents with Event Grid  (deprecated)
       href: ~/docs-ref-services/{moniker}/messaging-eventgrid-cloudnative-cloudevents-readme.md
@@ -1661,7 +1664,6 @@
     - name: System Events
       href: ~/docs-ref-services/{moniker}/messaging-eventgrid-systemevents-readme.md
       children:
-      - com.azure.messaging.eventgrid
       - com.azure.messaging.eventgrid.systemevents
       - com.azure.messaging.eventgrid.systemevents.models
     - name: Management
